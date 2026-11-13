@@ -1,8 +1,8 @@
-# Muswellbrook Twin Circuits – Analysis Programs
+# Muswellbrook Circuits Analysis Programs
 
 ## Project Overview
 
-This repository contains the Python 3 analysis and visualisation programs for the **Muswellbrook Twin Circuits** project.
+This repository contains the Python 3 analysis and visualisation programs for the Muswellbrook Circuit Designs
 
 The scripts generate circuit geometry, perform terrain and earthworks analysis, simulate lap performance, calculate run-off and facility requirements, and produce master plan drawings and export files.
 
@@ -11,7 +11,7 @@ The scripts generate circuit geometry, perform terrain and earthworks analysis, 
 | File / Directory | Description |
 |---|---|
 | `base.py` | Terrain grid, parcel boundary, entry zone, and start points. |
-| `geom.py` | Clothoid–arc–clothoid corner geometry. |
+| `geom.py` | Clothoid-arc-clothoid corner geometry. |
 | `pi.py` | Corner-speed helper functions used by the geometry calculations. |
 | `layouts.py` | Defines the two circuits as lists of corner points in the format `[name, E, N, radius, banking]`. |
 | `circuit.py` | Circuit class: builds the centreline, fits levels to the terrain, calculates earthworks, and performs lap simulations. Also contains car data (`CARS`). |
